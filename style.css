@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+li{
+    font-size: 1rem;
+    color: rgb(95, 95, 95);
+}
+
+a {
+    font-size: 1rem;
+    color: #000;  
+    order: 3;
+    font-size: 400;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+}
+.logo-nav {
+   margin-right: 2rem;
+   margin-top: 2rem;
+}
+
+nav {
+    order: 2;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+li {
+    display: inline-block;
+    padding: 0px 20px;
+    align-items: center;
+}
+
+/* Landing Page */
+
+.landing-page {
+    margin-top: 4rem;
+}
+
+.landing-page .landing-text {
+    margin-left: 14%;
+}
+
+.landing-page h1 {
+    font-weight: 300;
+    font-size: 3.2rem;
+    width: 600px;
+    margin-bottom: 3rem;
+}
+
+.landing-page .the-world {
+    border-bottom: 8px solid rgb(214, 0, 0);
+    display: inline-block;
+    line-height: 0.6;
+}
+
+/* Landing Page End */
